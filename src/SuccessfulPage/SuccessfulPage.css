@@ -1,0 +1,667 @@
+* {
+  box-sizing: border-box;
+}
+
+.SuccessfulPage-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================================
+   LEFT SECTION
+========================================= */
+
+.SuccessfulPage-left {
+  width: 50%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+  padding: 55px 6% 110px;
+
+  background: linear-gradient(
+    110deg,
+    #526b97 0%,
+    #657da4 52%,
+    #e9edf4 100%
+  );
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   BRAND
+========================================= */
+
+.SuccessfulPage-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.SuccessfulPage-brand-icon {
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.SuccessfulPage-brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SuccessfulPage-brand-text h2 {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+.SuccessfulPage-brand-text p {
+  margin: 4px 0 0;
+
+  font-size: 11px;
+  line-height: 1.2;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   LEFT CONTENT
+========================================= */
+
+.SuccessfulPage-left-content {
+  margin-top: 32px;
+}
+
+.SuccessfulPage-small-title {
+  margin: 0 0 14px;
+
+  font-size: 18px;
+  line-height: 1.2;
+
+  font-weight: 700;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.SuccessfulPage-left-title {
+  margin: 0;
+
+  font-size: clamp(35px, 3.1vw, 51px);
+  line-height: 1.02;
+
+  font-weight: 700;
+  letter-spacing: -1px;
+
+  color: #ffffff;
+}
+
+.SuccessfulPage-left-description {
+  margin: 13px 0 0;
+
+  font-size: 14px;
+  line-height: 1.45;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   MAIN ILLUSTRATION
+========================================= */
+
+.SuccessfulPage-main-image {
+  width: 100%;
+
+  margin-top: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SuccessfulPage-main-image img {
+  width: min(600px, 100%);
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+
+/* =========================================
+   TESTIMONIAL
+========================================= */
+
+.SuccessfulPage-testimonial {
+  position: absolute;
+
+  left: 6%;
+  right: 6%;
+  bottom: 30px;
+
+  min-height: 60px;
+
+  padding: 10px 17px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  border-radius: 9px;
+
+  background: rgba(224, 230, 240, 0.58);
+}
+
+.SuccessfulPage-testimonial-icon {
+  width: 34px;
+  height: 34px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+  background: #173566;
+}
+
+.SuccessfulPage-testimonial-icon span {
+  font-size: 17px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+.SuccessfulPage-testimonial-content {
+  min-width: 0;
+}
+
+.SuccessfulPage-testimonial-quote {
+  margin: 0;
+
+  font-size: 10px;
+  line-height: 1.35;
+
+  font-weight: 700;
+
+  color: #303640;
+}
+
+.SuccessfulPage-testimonial-author {
+  margin: 2px 0 0;
+
+  font-size: 9px;
+  line-height: 1.3;
+
+  color: #4d535d;
+}
+
+
+/* =========================================
+   RIGHT SECTION
+========================================= */
+
+.SuccessfulPage-right {
+  width: 50%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 6%;
+
+  background: #ffffff;
+}
+
+.SuccessfulPage-right-content {
+  width: 100%;
+  max-width: 610px;
+
+  margin-top: 10px;
+}
+
+
+/* =========================================
+   SUCCESS ICON
+========================================= */
+
+.SuccessfulPage-success-icon {
+  width: 180px;
+  height: 155px;
+
+  margin: 0 auto 12px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SuccessfulPage-success-outer {
+  width: 88px;
+  height: 88px;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #edf0f2;
+}
+
+.SuccessfulPage-success-circle {
+  width: 68px;
+  height: 68px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #79c6a7;
+}
+
+.SuccessfulPage-success-circle span {
+  font-size: 38px;
+  line-height: 1;
+
+  font-weight: 300;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   SUCCESS ICON RAYS
+========================================= */
+
+.SuccessfulPage-ray {
+  position: absolute;
+
+  width: 13px;
+  height: 6px;
+
+  border-radius: 10px;
+
+  background: #173566;
+}
+
+.SuccessfulPage-ray-one {
+  top: 25px;
+  left: 23px;
+
+  transform: rotate(45deg);
+}
+
+.SuccessfulPage-ray-two {
+  top: 25px;
+  right: 23px;
+
+  transform: rotate(-45deg);
+}
+
+.SuccessfulPage-ray-three {
+  top: 72px;
+  left: 6px;
+
+  transform: rotate(10deg);
+
+  background: #cdd2d9;
+}
+
+.SuccessfulPage-ray-four {
+  top: 72px;
+  right: 6px;
+
+  transform: rotate(-10deg);
+
+  background: #cdd2d9;
+}
+
+.SuccessfulPage-ray-five {
+  bottom: 22px;
+  left: 23px;
+
+  transform: rotate(-35deg);
+
+  background: #cdd2d9;
+}
+
+.SuccessfulPage-ray-six {
+  bottom: 22px;
+  right: 23px;
+
+  transform: rotate(35deg);
+
+  background: #cdd2d9;
+}
+
+
+/* =========================================
+   RIGHT TITLE
+========================================= */
+
+.SuccessfulPage-right-title {
+  margin: 0;
+
+  text-align: center;
+
+  font-size: clamp(32px, 2.6vw, 45px);
+  line-height: 1.15;
+
+  font-weight: 700;
+
+  color: #173566;
+}
+
+
+/* =========================================
+   RIGHT DESCRIPTION
+========================================= */
+
+.SuccessfulPage-right-description {
+  max-width: 590px;
+
+  margin: 18px auto 28px;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  text-align: left;
+
+  color: #7d858f;
+}
+
+
+/* =========================================
+   LOGIN BUTTON
+========================================= */
+
+.SuccessfulPage-login-button {
+  width: 100%;
+  height: 57px;
+
+  padding: 0 25px;
+
+  border: none;
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  cursor: pointer;
+
+  background: #173566;
+  color: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.SuccessfulPage-login-button:hover {
+  background: #10294f;
+}
+
+.SuccessfulPage-login-button:active {
+  transform: scale(0.99);
+}
+
+.SuccessfulPage-login-arrow {
+  font-size: 21px;
+  line-height: 1;
+}
+
+
+/* =========================================
+   SUPPORT
+========================================= */
+
+.SuccessfulPage-support {
+  width: 100%;
+
+  margin-top: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 17px;
+}
+
+.SuccessfulPage-support-line {
+  width: 65px;
+  height: 1px;
+
+  background: #aeb2b7;
+}
+
+.SuccessfulPage-support p {
+  margin: 0;
+
+  white-space: nowrap;
+
+  font-size: 11px;
+
+  color: #555a61;
+}
+
+.SuccessfulPage-support p span {
+  color: #17647f;
+
+  font-weight: 700;
+}
+
+
+/* =========================================
+   LARGE SCREEN
+========================================= */
+
+@media (min-width: 1600px) {
+
+  .SuccessfulPage-left {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  .SuccessfulPage-right {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  .SuccessfulPage-testimonial {
+    left: 7.5%;
+    right: 7.5%;
+  }
+
+  .SuccessfulPage-main-image img {
+    width: 610px;
+  }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .SuccessfulPage-left {
+    padding: 45px 5% 110px;
+  }
+
+  .SuccessfulPage-right {
+    padding: 45px 5%;
+  }
+
+  .SuccessfulPage-testimonial {
+    left: 5%;
+    right: 5%;
+  }
+
+  .SuccessfulPage-left-title {
+    font-size: 38px;
+  }
+
+  .SuccessfulPage-right-title {
+    font-size: 34px;
+  }
+
+  .SuccessfulPage-main-image {
+    margin-top: 20px;
+  }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .SuccessfulPage-container {
+    flex-direction: column;
+
+    overflow: visible;
+  }
+
+  .SuccessfulPage-left,
+  .SuccessfulPage-right {
+    width: 100%;
+    min-height: auto;
+  }
+
+
+  /* LEFT */
+
+  .SuccessfulPage-left {
+    padding: 35px 25px 115px;
+  }
+
+  .SuccessfulPage-brand-text h2 {
+    font-size: 18px;
+  }
+
+  .SuccessfulPage-small-title {
+    font-size: 16px;
+  }
+
+  .SuccessfulPage-left-title {
+    font-size: 34px;
+  }
+
+  .SuccessfulPage-left-description {
+    font-size: 13px;
+  }
+
+  .SuccessfulPage-main-image {
+    margin-top: 25px;
+  }
+
+
+  /* TESTIMONIAL */
+
+  .SuccessfulPage-testimonial {
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+  }
+
+
+  /* RIGHT */
+
+  .SuccessfulPage-right {
+    padding: 60px 25px;
+  }
+
+  .SuccessfulPage-right-content {
+    margin-top: 0;
+  }
+
+  .SuccessfulPage-success-icon {
+    width: 160px;
+    height: 140px;
+  }
+
+  .SuccessfulPage-right-title {
+    font-size: 30px;
+  }
+
+  .SuccessfulPage-right-description {
+    text-align: center;
+    font-size: 13px;
+  }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+  .SuccessfulPage-left {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .SuccessfulPage-left-title {
+    font-size: 29px;
+  }
+
+  .SuccessfulPage-testimonial {
+    left: 18px;
+    right: 18px;
+  }
+
+  .SuccessfulPage-right {
+    padding: 50px 18px;
+  }
+
+  .SuccessfulPage-right-title {
+    font-size: 27px;
+  }
+
+  .SuccessfulPage-login-button {
+    height: 55px;
+  }
+
+  .SuccessfulPage-support-line {
+    width: 45px;
+  }
+
+}
