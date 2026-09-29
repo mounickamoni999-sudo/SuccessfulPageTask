@@ -1,7 +1,7 @@
 import React from "react";
 import "./SuccessfulPage.css";
 
-import FrameImage from "../assets/SuccessfulPage/frame.jpg";
+import FrameImage from "../assets/SuccessfulPage/frame.png";
 import Background2 from "../assets/SuccessfulPage/Background2.jpg";
 
 const SuccessfulPage = () => {
