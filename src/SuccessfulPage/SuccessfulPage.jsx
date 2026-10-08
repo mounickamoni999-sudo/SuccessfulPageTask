@@ -1,53 +1,57 @@
 import React from "react";
+import { Link,useNavigate } from 'react-router-dom'
 import "./Successfulpage.css";
-
 import logo from "../assets/SuccessfulPage/eduhire-brand-icon.png";
 import illustration from "../assets/SuccessfulPage/password-reset-illustration.png";
 import shield from "../assets/SuccessfulPage/security-shield-icon.png";
 import successMark from "../assets/SuccessfulPage/success-confirmation-icon.png";
 
-function Successfulpage() {
 
-  const handleBackToLogin = () => {
-    window.history.back();
+
+  const SuccessfulPage = () => {
+    const navigate = useNavigate();
+
+    const handleBackToLogin = () => {
+    navigate("/login");
   };
 
  return (
-     <main className="reset-page">
-       <section className="reset-page__story" aria-labelledby="success-heading">
-         <header className="brand">
-           <span className="brand__logo-frame">
-             <img src={logo} alt="" className="brand__logo" />
+     <main className="SuccessfulPage-reset-page">
+       <section className="SuccessfulPage-reset-page-story">
+         <header className="SuccessfulPage-brand">
+           <span className="SuccessfulPage-brand-logo-frame">
+             <img src={logo} alt="" className="SuccessfulPage-brand-logo" />
            </span>
            <div>
              <h2>Placement &amp; Recruitment Platform</h2>
-             <p>Connect <span>•</span> Discover <span>•</span> Succeed</p>
+             {/* <p>Connect • Discover • Succeed</p> */}
+             <p className="SuccessfulPage-Brand-Tagline">  <span className="SuccessfulPage-Brand-Tagline-Item">Connect</span>  <span className="SuccessfulPage-Brand-Tagline-Item">Discover</span>  <span className="SuccessfulPage-Brand-Tagline-Item">Succeed</span></p>
            </div>
          </header>
  
-         <div className="story-content">
-           <p className="eyebrow">New beginning awaits</p>
+         <div className="SuccessfulPage-story-content">
+           <p className="SuccessfulPage-subtitle">New beginning awaits</p>
            <h1 id="success-heading">
              Your Password Has
              <br />
              Been Reset Successfully!
            </h1>
-           <p className="story-copy">
-             You&apos;re all set! Your account is now secure.<br />
+           <p className="SuccessfulPage-story-copy">
+             You're all set! Your account is now secure.<br />
              Log in and continue your journey towards a brighter future.
            </p>
  
-           <div className="story-illustration-stage">
+           <div className="SuccessfulPage-story-illustration-stage">
              <img
                src={illustration}
                alt="A person celebrating a successful account update"
-               className="story-illustration"
+               className="SuccessfulPage-story-illustration"
              />
            </div>
          </div>
  
-         <blockquote className="testimonial">
-           <span className="testimonial__icon">
+         <div className="SuccessfulPage-testimonial">
+           <span className="SuccessfulPage-testimonial-icon">
              <img src={shield} alt="" />
            </span>
            <div>
@@ -55,31 +59,31 @@ function Successfulpage() {
                “A unified platform that simplifies training, placements, and
                recruitment management.”
              </p>
-             <cite>
+             <p>
                Dr. Elena Vance — Dean of Experiential Education, Northeastern Consortium
-             </cite>
+             </p>
            </div>
-         </blockquote>
+           </div> 
        </section>
  
-       <section className="reset-page__action" aria-labelledby="confirmation-title">
-         <div className="confirmation-card">
-           <img src={successMark} alt="" className="confirmation-card__icon" />
+       <section className="SuccessfulPage-reset-page-action" aria-labelledby="confirmation-title">
+         <div className="SuccessfulPage-confirmation-card">
+           <img src={successMark} alt="" className="SuccessfulPage-confirmation-card-icon" />
            <h2 id="confirmation-title">Password Reset Successfully!</h2>
            <p>
              Your password has been reset. You can now log in with your new password
              and continue exploring all the opportunities on EduHire.
            </p>
            <button type="button" onClick={handleBackToLogin}>
-             Back to Login <span aria-hidden="true">→</span>
+             Back to Login 
            </button>
  
-           <div className="help-row">
-             <span className="help-row__line" />
+           <div className="SuccessfulPage-help-row">
+             <span className="SuccessfulPage-help-row-line" />
              <p>
-               Need help? <a href="mailto:support@eduhire.example">Contact Support</a>
+               Need help? <Link href="mailto:support@eduhire.example">Contact Support</Link>
              </p>
-             <span className="help-row__line" />
+             <span className="SuccessfulPage-help-row-line" />
            </div>
          </div>
        </section>
@@ -87,4 +91,4 @@ function Successfulpage() {
    );
 }
 
-export default Successfulpage;
+export default SuccessfulPage;

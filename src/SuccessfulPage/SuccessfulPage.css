@@ -30,7 +30,7 @@ a {
   font: inherit;
 }
 
-.reset-page {
+.SuccessfulPage-reset-page {
   display: grid;
   grid-template-columns: minmax(0, 55%) minmax(0, 45%);
   width: 100%;
@@ -48,7 +48,7 @@ a {
   );
 }
 
-.reset-page__story {
+.SuccessfulPage-reset-page-story {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ a {
   color: #fff;
 }
 
-.brand {
+.SuccessfulPage-brand {
   position: relative;
   z-index: 1;
   display: flex;
@@ -67,14 +67,14 @@ a {
   gap: 4px;
 }
 
-.brand__logo-frame {
+.SuccessfulPage-brand-logo-frame {
   display: block;
   flex: 0 0 54px;
   width: 54px;
   height: 54px;
 }
 
-.brand__logo {
+.SuccessfulPage-brand-logo {
   display: block;
   width: 100%;
   height: 100%;
@@ -82,31 +82,31 @@ a {
   transform: none;
 }
 
-.brand h2 {
+.SuccessfulPage-brand h2 {
   font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
-.brand p {
+.SuccessfulPage-brand p {
   margin-top: 2px;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.88);
 }
 
-.brand p span {
+.SuccessfulPage-brand p span {
   margin: 0 3px;
 }
 
-.story-content {
+.SuccessfulPage-story-content {
   position: relative;
   z-index: auto;
   flex: 1;
   padding-top: clamp(12px, 2.4vh, 26px);
 }
 
-.eyebrow {
+.SuccessfulPage-subtitle {
   margin-bottom: 14px;
   font-size: 23px;
   font-weight: 700;
@@ -115,7 +115,7 @@ a {
   color: #fff;
 }
 
-.story-content h1 {
+.SuccessfulPage-story-content h1 {
   max-width: 590px;
   font-family: "Manrope", sans-serif;
   font-size: clamp(36px, 2.12vw, 41px);
@@ -123,21 +123,21 @@ a {
   letter-spacing: -0.025em;
 }
 
-.story-copy {
+.SuccessfulPage-story-copy {
   margin-top: 9px;
   font-size: 16px;
   line-height: 1.42;
   color: rgba(255, 255, 255, 0.88);
 }
 
-.story-illustration-stage {
+.SuccessfulPage-story-illustration-stage {
   position: relative;
   width: min(585px, 54vh, 82%);
   aspect-ratio: 584 / 518;
   margin: clamp(5px, 0.9vh, 10px) auto 0 90px;
 }
 
-.story-illustration {
+.SuccessfulPage-story-illustration {
   position: relative;
   z-index: 1;
   display: block;
@@ -146,7 +146,7 @@ a {
   object-fit: contain;
 }
 
-.testimonial {
+.SuccessfulPage-testimonial {
   position: absolute;
   z-index: 2;
   bottom: clamp(20px, 5.1vh, 55px);
@@ -163,7 +163,7 @@ a {
   backdrop-filter: blur(10px);
 }
 
-.testimonial__icon {
+.SuccessfulPage-testimonial-icon {
   display: grid;
   flex: 0 0 36px;
   width: 36px;
@@ -173,7 +173,7 @@ a {
   background: #19376f;
 }
 
-.testimonial__icon img {
+.SuccessfulPage-testimonial-icon img {
   width: 100%;
   height: 100%;
   border-radius: 9px;
@@ -181,14 +181,14 @@ a {
   transform: none;
 }
 
-.testimonial p {
+.SuccessfulPage-testimonial p {
   font-size: 12px;
   font-weight: 700;
   line-height: 1.35;
   color: #263247;
 }
 
-.testimonial cite {
+.SuccessfulPage-testimonial cite {
   display: block;
   margin-top: 1px;
   font-size: 11px;
@@ -197,7 +197,7 @@ a {
   color: #3e4859;
 }
 
-.reset-page__action {
+.SuccessfulPage-reset-page-action {
   display: grid;
   height: 100%;
   min-height: 0;
@@ -205,18 +205,18 @@ a {
   place-items: center;
 }
 
-.confirmation-card {
+.SuccessfulPage-confirmation-card {
   width: min(100%, 600px);
   text-align: center;
 }
 
-.confirmation-card__icon {
+.SuccessfulPage-confirmation-card-icon {
   width: min(226px, 44%);
   height: auto;
   margin-bottom: 20px;
 }
 
-.confirmation-card h2 {
+.SuccessfulPage-confirmation-card h2 {
   font-family: "Manrope", sans-serif;
   font-size: clamp(30px, 2.15vw, 41px);
   font-weight: 700;
@@ -225,7 +225,7 @@ a {
   color: #102f68;
 }
 
-.confirmation-card > p {
+.SuccessfulPage-confirmation-card > p {
   max-width: 600px;
   margin: 14px auto 27px;
   font-size: 16px;
@@ -233,7 +233,7 @@ a {
   color: #7587aa;
 }
 
-.confirmation-card button {
+.SuccessfulPage-confirmation-card button {
   width: 100%;
   min-height: 57px;
   border: 0;
@@ -244,23 +244,23 @@ a {
   transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
 }
 
-.confirmation-card button:hover {
+.SuccessfulPage-confirmation-card button:hover {
   background: #214681;
   box-shadow: 0 14px 28px rgba(16, 47, 112, 0.2);
   transform: translateY(-1px);
 }
 
-.confirmation-card button:focus-visible,
-.help-row a:focus-visible {
+.SuccessfulPage-confirmation-card button:focus-visible,
+.SuccessfulPage-help-row a:focus-visible {
   outline: 3px solid #8ebaff;
   outline-offset: 3px;
 }
 
-.confirmation-card button span {
+.SuccessfulPage-confirmation-card button span {
   margin-left: 6px;
 }
 
-.help-row {
+.SuccessfulPage-help-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,42 +268,42 @@ a {
   margin-top: 29px;
 }
 
-.help-row__line {
+.SuccessfulPage-help-row-line {
   width: 65px;
   height: 1px;
   background: #aeb2b8;
 }
 
-.help-row p {
+.SuccessfulPage-help-row p {
   font-size: 14px;
   color: #555b65;
 }
 
-.help-row a {
+.SuccessfulPage-help-row a {
   font-weight: 700;
   color: #087097;
   text-decoration: none;
 }
 
-.help-row a:hover {
+.SuccessfulPage-help-row a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
-  .brand h2 {
+  .SuccessfulPage-brand h2 {
     font-size: 16px;
   }
 
-  .eyebrow {
+  .SuccessfulPage-subtitle {
     font-size: 17px;
   }
 
-  .story-content h1 {
+  .SuccessfulPage-story-content h1 {
     font-size: 34px;
   }
 
-  .story-copy,
-  .confirmation-card > p {
+  .SuccessfulPage-story-copy,
+  .SuccessfulPage-confirmation-card > p {
     font-size: 14px;
   }
 }
@@ -313,7 +313,7 @@ a {
     overflow: auto;
   }
 
-  .reset-page {
+  .SuccessfulPage-reset-page {
     grid-template-columns: 1fr;
     height: auto;
     min-height: 100vh;
@@ -322,52 +322,52 @@ a {
     background: #fff;
   }
 
-  .reset-page__story,
-  .reset-page__action {
+  .SuccessfulPage-reset-page-story,
+  .SuccessfulPage-reset-page-action {
     height: auto;
     min-height: auto;
   }
 
-  .reset-page__story {
+  .SuccessfulPage-reset-page-story {
     padding-bottom: 150px;
     background: linear-gradient(140deg, #586f98 0%, #768aab 65%, #cbd3df 100%);
   }
 
-  .story-illustration-stage {
+  .SuccessfulPage-story-illustration-stage {
     max-width: 585px;
     margin-right: auto;
     margin-bottom: 25px;
     margin-left: auto;
   }
 
-  .reset-page__action {
+  .SuccessfulPage-reset-page-action {
     padding-block: 90px;
     background: #fff;
   }
 }
 
 @media (max-width: 560px) {
-  .reset-page__story {
+  .SuccessfulPage-reset-page-story {
     padding: 28px 24px 178px;
   }
 
-  .brand h2 {
+  .SuccessfulPage-brand h2 {
     font-size: 14px;
   }
 
-  .eyebrow {
+  .SuccessfulPage-subtitle {
     font-size: 14px;
   }
 
-  .story-content h1 {
+  .SuccessfulPage-story-content h1 {
     font-size: 30px;
   }
 
-  .story-illustration-stage {
+  .SuccessfulPage-story-illustration-stage {
     width: 100%;
   }
 
-  .testimonial {
+  .SuccessfulPage-testimonial {
     right: 24px;
     bottom: 24px;
     left: 24px;
@@ -375,23 +375,23 @@ a {
     align-items: flex-start;
   }
 
-  .reset-page__action {
+  .SuccessfulPage-reset-page-action {
     padding: 70px 24px;
   }
 
-  .confirmation-card h2 {
+  .SuccessfulPage-confirmation-card h2 {
     font-size: 28px;
   }
 
-  .confirmation-card__icon {
+  .SuccessfulPage-confirmation-card-icon {
     width: min(200px, 64%);
   }
 
-  .help-row {
+  .SuccessfulPage-help-row {
     gap: 10px;
   }
 
-  .help-row__line {
+  .SuccessfulPage-help-row-line {
     width: 36px;
   }
 }
@@ -401,4 +401,21 @@ a {
     scroll-behavior: auto !important;
     transition: none !important;
   }
+
+  
 }
+
+.SuccessfulPage-Brand-Tagline 
+  {  
+    display: flex; 
+     align-items: center;  
+     gap: 4px;  margin: 2px 0 0; 
+      font-size: 9px;} 
+      .SuccessfulPage-Brand-Tagline-Item 
+      {  
+        display: flex;  
+        align-items: center;  
+        gap: 4px;} /* dot before every item except the first */
+        .SuccessfulPage-Brand-Tagline-Item + 
+        .SuccessfulPage-Brand-Tagline-Item::before
+         {  content: '•';  font-size: 9px;  line-height: 1;}
