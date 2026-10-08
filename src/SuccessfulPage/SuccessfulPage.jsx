@@ -23,7 +23,7 @@ import successMark from "../assets/SuccessfulPage/success-confirmation-icon.png"
              <img src={logo} alt="" className="SuccessfulPage-brand-logo" />
            </span>
            <div>
-             <h2>Placement &amp; Recruitment Platform</h2>
+             <h2>Placement &; Recruitment Platform</h2>
              {/* <p>Connect • Discover • Succeed</p> */}
              <p className="SuccessfulPage-Brand-Tagline">  <span className="SuccessfulPage-Brand-Tagline-Item">Connect</span>  <span className="SuccessfulPage-Brand-Tagline-Item">Discover</span>  <span className="SuccessfulPage-Brand-Tagline-Item">Succeed</span></p>
            </div>
